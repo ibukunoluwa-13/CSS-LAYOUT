@@ -1,0 +1,58 @@
+* {
+    font-family: Inter;
+    color: grey;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid #ebecf0;
+    padding: 5px 25px 5px 10px;
+}
+
+.navbar-lhs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navbar-rhs {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.toggle {
+    display: flex;
+    gap: 20px;
+}
+
+.student-logo img {
+    height: 30px;
+    border-radius: 100%;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+}
+
+.lower-section {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh ;
+    width: 5%;
+    gap: 20px;
+    border-right: 1px solid #ebecf0;
+}
